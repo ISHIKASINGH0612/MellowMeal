@@ -198,6 +198,14 @@ html {
   color: rebeccapurple;
   box-shadow: inset 0px -20px 0px -15px rebeccapurple;
 }
+
+
+.btn-group__item {
+  color: rebeccapurple;
+  
+}
+
+
 .btn-group__item:focus {
   outline: none;
 }
