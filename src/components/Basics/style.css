@@ -55,6 +55,7 @@ html {
 
 .card-body {
   display: inline-block;
+  color: black;
 }
 
 .card-number {
@@ -81,6 +82,7 @@ html {
 }
 
 .card-title {
+  /* color: black; */
   font-family: "Cormorant Garamond", serif;
   font-size: 60px;
   font-weight: 300;
