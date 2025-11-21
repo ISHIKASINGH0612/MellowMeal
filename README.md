@@ -17,8 +17,7 @@ Smooth fade + slide animations
 Brand title & tagline
 <p align="center">
   <img src="public/images/Screen1.png" alt="Screen 1"  />
-  ;; width="420" style="margin-right:12px;"
-  ;; <img src="public/images/your-image-name.png" alt="Another view" width="420" />
+
 </p>
 
 
@@ -39,8 +38,7 @@ Fully responsive grid
 
 <p align="center">
   <img src="public/images/Screen2.png" alt="Screen 2"  />
-  ;; width="420" style="margin-right:12px;"
-  ;; <img src="public/images/your-image-name.png" alt="Another view" width="420" />
+ 
 </p>
 
 
@@ -64,8 +62,6 @@ Explore button scrolls/navigates to menu
 Order button can navigate to a separate order page
 <p align="center">
   <img src="public/images/Screen3.png" alt="Screen 3"  />
-  ;; width="420" style="margin-right:12px;"
-  ;; <img src="public/images/your-image-name.png" alt="Another view" width="420" />
 </p>
 
 🔷 5. No Backend Needed (Mock API)
