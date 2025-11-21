@@ -16,7 +16,7 @@ Smooth fade + slide animations
 
 Brand title & tagline
 
-![alt text](public/images/screen1.png)
+
 
 🔷 2. Interactive Menu Page
 
@@ -32,7 +32,9 @@ Highlighted active filter buttons
 
 Fully responsive grid
 
-![alt text](public/images/screen2.png)
+!alt[](public\images\Screen2.png)
+
+
 
 🔷 3. Clean Component Architecture
 
@@ -45,7 +47,7 @@ MenuCard.jsx
 Navbar.jsx
 
 menuApi.js (Mock API data)
-![alt text](public/images/screen3.png)
+
 
 🔷 4. Smooth Page Navigation
 
@@ -163,26 +165,26 @@ Conditional rendering
 
 Event handlers (onClick)
 
-🎯 Future Enhancements
+;; 🎯 Future Enhancements
 
-Login / Signup page
+;; Login / Signup page
 
-Add to Cart functionality
+;; Add to Cart functionality
 
-Checkout Page
+;; Checkout Page
 
-Real backend API integration
+;; Real backend API integration
 
-Admin panel for adding/editing menu items
+;; Admin panel for adding/editing menu items
 
-Dark mode
+;; Dark mode
 
-Mobile-first redesign
+;; Mobile-first redesign
 
 👩‍💻 Author
 
 Ishika Singh
-Passionate Full-Stack Developer in making
+Full-Stack Developer in making
 Loves building beautiful UI and practical real-world projects.
 
 ⭐ If you liked this project
