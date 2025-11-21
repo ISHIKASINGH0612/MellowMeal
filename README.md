@@ -71,71 +71,52 @@ Data stored locally in menuApi.js
 Serves as a replacement for real API during development
 
 📁 Project Structure
-MellowMeal/
 
+MellowMeal/
 
 │── public/
 
-
 │   └── images/ (backgrounds & food items)
 
-
 │
-
 
 │── src/
 
-
 │   ├── components/
-
 
 │   │   ├── OpeningPage/
 
-
 │   │   │   └── OpeningPage.jsx
-
 
 │   │   ├── Basics/
 
-
 │   │   │   └── Restaurant.jsx
 
-
+]
 │   │   ├── Navbar/
-
 
 │   │   │   └── Navbar.jsx
 
-
+]
 │   │   ├── MenuCard/
-
 
 │   │   │   └── MenuCard.jsx
 
-
 │   │   └── Hooks/ (optional hooks)
-
 
 │   │
 
-
 │   ├── menuApi.js
-
 
 │   ├── App.jsx
 
-
 │   ├── main.jsx
-
 
 │   ├── OpeningPage.css
 
-
 │   └── style.css
 
-
 │
-
 
 └── README.md
 
