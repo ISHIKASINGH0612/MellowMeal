@@ -1,16 +1,185 @@
-# React + Vite
+🌟 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MellowMeal is a beautifully designed, interactive food ordering web application built using React + Vite.
+The project focuses on delivering a smooth UI, aesthetic design, and clean component architecture, providing users with a simple yet engaging experience while browsing food menus.
 
-Currently, two official plugins are available:
+Users are welcomed with a visually appealing Opening Page, followed by an interactive Menu Explorer, where they can filter dishes by category (Breakfast, Lunch, Evening, Dinner, All). Each item displays its image, description, and an order button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+🔷 1. Opening Landing Page
 
-## React Compiler
+Full-screen aesthetic background
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smooth fade + slide animations
 
-## Expanding the ESLint configuration
+“Explore Menu” button for navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Brand title & tagline
+
+🔷 2. Interactive Menu Page
+
+Filter menu items by category
+
+Dynamic rendering using React Hooks
+
+Elegant card layout with images, titles, descriptions
+
+Uniform image sizes using CSS object-fit
+
+Highlighted active filter buttons
+
+Fully responsive grid
+
+🔷 3. Clean Component Architecture
+
+OpeningPage.jsx
+
+Restaurant.jsx
+
+MenuCard.jsx
+
+Navbar.jsx
+
+menuApi.js (Mock API data)
+
+🔷 4. Smooth Page Navigation
+
+Explore button scrolls/navigates to menu
+
+Order button can navigate to a separate order page
+
+🔷 5. No Backend Needed (Mock API)
+
+Data stored locally in menuApi.js
+
+Serves as a replacement for real API during development
+
+📁 Project Structure
+MellowMeal/
+│── public/
+│   └── images/ (backgrounds & food items)
+│
+│── src/
+│   ├── components/
+│   │   ├── OpeningPage/
+│   │   │   └── OpeningPage.jsx
+│   │   ├── Basics/
+│   │   │   └── Restaurant.jsx
+│   │   ├── Navbar/
+│   │   │   └── Navbar.jsx
+│   │   ├── MenuCard/
+│   │   │   └── MenuCard.jsx
+│   │   └── Hooks/ (optional hooks)
+│   │
+│   ├── menuApi.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── OpeningPage.css
+│   └── style.css
+│
+└── README.md
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+Vite
+
+JSX Components
+
+CSS3
+
+Flexbox + Grid
+
+Tools
+
+VS Code
+
+Git & GitHub
+
+Chrome DevTools
+
+🔧 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/YOUR-USERNAME/MellowMeal.git
+
+2️⃣ Navigate to project directory
+cd MellowMeal
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the development server
+npm run dev
+
+
+Your app will start at:
+
+http://localhost:5173/
+
+🎨 Design Choices
+✔ Purple, dark-themed UI
+✔ Smooth animation transitions
+✔ Large, clear dish images
+✔ Clean card layout
+✔ Aesthetic typography (Cormorant Garamond + Lato)
+
+The goal was to create a calming, premium restaurant feel.
+
+📦 Mock API (menuApi.js)
+
+The project uses a local JSON-like array to mimic backend API data.
+Each food item object includes:
+
+{
+  id: 1,
+  image: "images/maggi.jpg",
+  name: "Maggi",
+  category: "breakfast",
+  price: "12₹",
+  description: "Tasty hot Maggi..."
+}
+
+
+This allows frontend UI to function without a backend.
+
+📚 React Concepts Used
+
+useState Hook
+
+Props (passing data to components)
+
+Array.map() for dynamic rendering
+
+Component composition
+
+Conditional rendering
+
+Event handlers (onClick)
+
+🎯 Future Enhancements
+
+Login / Signup page
+
+Add to Cart functionality
+
+Checkout Page
+
+Real backend API integration
+
+Admin panel for adding/editing menu items
+
+Dark mode
+
+Mobile-first redesign
+
+👩‍💻 Author
+
+Ishika Singh
+Passionate Full-Stack Developer in making
+Loves building beautiful UI and practical real-world projects.
+
+⭐ If you liked this project
+
+Donot forget to give it a star ⭐ on GitHub!
