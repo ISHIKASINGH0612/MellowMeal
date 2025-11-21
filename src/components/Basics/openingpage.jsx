@@ -1,5 +1,7 @@
 import React from "react";
 import "./OpeningPage.css";
+// import { useNavigate } from "react-router-dom";
+
 
 const OpeningPage = ({ onStart }) => {
   return (
@@ -11,6 +13,12 @@ const OpeningPage = ({ onStart }) => {
         <button className="start-btn" onClick={onStart}>
           Explore Menu
         </button>
+        {/* const navigate = useNavigate();
+
+<button className="start-btn" onClick={() => navigate("/menu")}>
+  Explore Menu
+</button> */}
+
       </div>
     </div>
   );

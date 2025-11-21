@@ -1,7 +1,9 @@
 import React from 'react'
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Restaurant from './components/Basics/restaurant'
-import OpeningPage from './components/Opening page/openingpage'
-import OrderPage from './components/Order page/orderpage'
+import OpeningPage from './components/Openingpage/openingpage'
+import OrderPage from './components/Orderpage/orderpage'
+import Footer from './components/Footer/footer'
 
 const App = () => {
   return (
@@ -9,7 +11,9 @@ const App = () => {
     <OpeningPage />
       <Restaurant />
       {/* <OrderPage /> */}
+      <Footer />
     </div>
+
   )
 }
 

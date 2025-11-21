@@ -1,0 +1,23 @@
+/* src/components/Footer/footer.css */
+.site-footer {
+  color: #fff;
+  padding: 40px 20px;
+  background: rgba(0,0,0,0.35);
+  margin-top: 60px;
+}
+.footer-inner {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-block h5, .footer-block h4 { margin-bottom: 8px; color: #f3eefe; }
+.footer-block p { margin: 4px 0; color: #ddd; }
+.feedback-area {
+  margin-top: 18px;
+  display: flex;
+  justify-content:center;
+}
+.feedback-form input { padding: 10px; margin-right: 8px; border-radius: 8px; border: none; }
+.feedback-form button { padding: 10px 14px; border-radius: 8px; background: #a58fff; border: none; }
+.footer-bottom { text-align:center; margin-top:14px; color: #bbb; font-size: 13px; }

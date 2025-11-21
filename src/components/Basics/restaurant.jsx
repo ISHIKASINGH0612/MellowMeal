@@ -2,7 +2,9 @@ import React from 'react';
 import "./style.css";
  import Menu from './menuApi';
  import Menucard from './menuCard';
- import openingPage from '../Opening page/openingpage';
+ import openingPage from '../Openingpage/openingpage';
+ 
+
 
 
 const Restaurant = () => {
