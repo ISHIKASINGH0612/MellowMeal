@@ -1,0 +1,52 @@
+.order-page {
+  padding: 40px;
+  text-align: center;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+  background: #a58fff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.order-card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.order-img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.order-info {
+  text-align: left;
+  max-width: 400px;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: purple;
+  font-weight: bold;
+}
+
+.confirm-btn {
+  margin-top: 20px;
+  background: purple;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,65 @@
+/* Full screen background */
+.opening-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s ease;
+}
+
+/* Text content */
+.content {
+  text-align: center;
+  color: white;
+  animation: slideUp 2s ease;
+}
+
+.title {
+  font-size: 5rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* Button */
+.start-btn {
+  margin-top: 40px;
+  padding: 12px 35px;
+  background-color: #a58fff;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(165, 143, 255, 0.9);
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  scale: 1.05;
+  background-color: white;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
