@@ -16,6 +16,8 @@ Smooth fade + slide animations
 
 Brand title & tagline
 
+![alt text](public/images/screen1.png)
+
 🔷 2. Interactive Menu Page
 
 Filter menu items by category
@@ -30,6 +32,8 @@ Highlighted active filter buttons
 
 Fully responsive grid
 
+![alt text](public/images/screen2.png)
+
 🔷 3. Clean Component Architecture
 
 OpeningPage.jsx
@@ -41,6 +45,7 @@ MenuCard.jsx
 Navbar.jsx
 
 menuApi.js (Mock API data)
+![alt text](public/images/screen3.png)
 
 🔷 4. Smooth Page Navigation
 
