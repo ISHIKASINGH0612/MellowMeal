@@ -32,8 +32,10 @@ Highlighted active filter buttons
 
 Fully responsive grid
 
-!alt[](public\images\Screen2.png)
-
+<p align="center">
+  <img src="public/images/Screen2.png" alt="Screen 2" width="420" style="margin-right:12px;" />
+  <img src="public/images/your-image-name.png" alt="Another view" width="420" />
+</p>
 
 
 🔷 3. Clean Component Architecture
